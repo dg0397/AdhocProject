@@ -1,0 +1,23 @@
+.jumbotron.jumbotron-fluid{
+    background:url(../images/jumbotron.png) no-repeat; 
+    background-size: cover;
+}
+@media only screen and (max-width:576px){
+
+    h1{
+        font-size: 2.5rem !important;
+    }
+    h2{
+        font-size: 1.75rem !important;
+    }
+    .card{
+        width: 15rem !important;
+    }
+    #carouselExampleControls{
+        width: 80% !important
+    }
+    #quote{
+        font-size: 1.5rem !important;
+        font-weight: 300 !important
+    }
+}
